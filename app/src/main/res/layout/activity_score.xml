@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/cardsbackground"
+    android:id="@+id/layoutLi"
+    >
+
+    <TextView
+        android:id="@+id/tvKQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="Bạn đã thắng !!!"
+        android:gravity="center"
+        android:textColor="#FF5722"
+        />
+    <TextView
+        android:id="@+id/tvDiemNguoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm của bạn là: "
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/tvDiemMay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm của máy là: "
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/btChoiLai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chơi lại"
+        android:backgroundTint="#4CAF50"
+        android:drawableLeft="@drawable/replay"
+        />
+
+</LinearLayout>
